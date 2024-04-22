@@ -1,0 +1,45 @@
+{
+    "name": "Asteroid-Launcher",
+    "preductname": "Asteroid Launcher",
+    "version": "1.0.0",
+    "description": "Launcher de Asteroid Studios",
+    "main": "src/app.js",
+    "author": {
+        "name": "IgnExotic",
+        "email": "IgnExoticJr@gmail.com",
+        "url": "http://IgnExotic.fun"
+    },
+    "url": "http://ignexotic.fun/Api/Asteroid",
+    "scripts": {
+        "start": "cross-env-shell NODE_ENV=dev electron .",
+        "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
+        "build": "node build.js --obf=true --build=platform",
+        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+    },
+    "license": "CCANC",
+    "nodemonConfig": {
+        "ext": "js,html,css",
+        "ignore": "**/test"
+    },
+    "dependencies": {
+        "discord-rpc": "^4.0.1",
+        "electron-updater": "^6.1.4",
+        "minecraft-java-core": "^3.9.1",
+        "node-bdd": "^2.0.3",
+        "node-fetch": "^2.7.0",
+        "xml-js": "^1.6.11"
+    },
+    "devDependencies": {
+        "cross-env": "^7.0.3",
+        "electron": "^29.1.6",
+        "electron-builder": "^24.6.4",
+        "javascript-obfuscator": "^4.1.0",
+        "jimp": "^0.22.10",
+        "nodemon": "^3.0.1",
+        "png2icons": "^2.0.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ElihuMauricio/BLaunch.git"
+    }
+}
