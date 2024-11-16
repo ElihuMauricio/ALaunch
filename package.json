@@ -1,7 +1,7 @@
 {
     "name": "Asteroid-Launcher",
     "preductname": "Asteroid Launcher",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Asteroid Launcher",
     "main": "src/app.js",
     "author": {
@@ -9,7 +9,7 @@
         "email": "IgnExoticJr@gmail.com",
         "url": "http://IgnExotic.fun"
     },
-    "url": "http://ignexotic.fun/Api/Asteroid",
+    "url": "http://ignexotic.fun/asteroid/launcher",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
